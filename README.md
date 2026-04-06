@@ -1,8 +1,8 @@
-\# Europe Momentum Backtest
+# Europe Momentum Backtest
 
 
 
-\## Objective
+## Objective
 
 
 
@@ -14,143 +14,143 @@ The objective is to test whether past winners continue to outperform, using a si
 
 
 
-\---
+---
 
 
 
-\## Strategy Rules
+## Strategy Rules
 
 
 
-\- Universe: 24 fixed European equities
+- Universe: 24 fixed European equities
 
-\- Signal: momentum 12-1
+- Signal: momentum 12-1
 
-\- Ranking frequency: monthly
+- Ranking frequency: monthly
 
-\- Portfolio selection: top 30%
+- Portfolio selection: top 30%
 
-\- Weighting scheme: equal weight
+- Weighting scheme: equal weight
 
-\- Rebalancing: monthly
+- Rebalancing: monthly
 
-\- Transaction costs: 10 bps per trade
+- Transaction costs: 10 bps per trade
 
 
 
-\---
+---
 
 
 
-\## Backtest Design
+## Backtest Design
 
 
 
-\- Data period: 2010–2025
+- Data period: 2010–2025
 
-\- Warm-up period: 2010–2011
+- Warm-up period: 2010–2011
 
-\- In-sample period: 2012–2018
+- In-sample period: 2012–2018
 
-\- Out-of-sample period: 2019–2025
+- Out-of-sample period: 2019–2025
 
 
 
-\---
+---
 
 
 
-\## Universe Description
+## Universe Description
 
 
 
-\- AIR.PA : Airbus, aerospace (France)
+- AIR.PA : Airbus, aerospace (France)
 
-\- BNP.PA : BNP Paribas, banking (France)
+- BNP.PA : BNP Paribas, banking (France)
 
-\- SAN.PA : Sanofi, pharmaceuticals (France)
+- SAN.PA : Sanofi, pharmaceuticals (France)
 
-\- MC.PA : LVMH, luxury goods (France)
+- MC.PA : LVMH, luxury goods (France)
 
 
 
-\- SAP.DE : SAP, software (Germany)
+- SAP.DE : SAP, software (Germany)
 
-\- SIE.DE : Siemens, industrial engineering (Germany)
+- SIE.DE : Siemens, industrial engineering (Germany)
 
-\- ALV.DE : Allianz, insurance (Germany)
+- ALV.DE : Allianz, insurance (Germany)
 
-\- BAS.DE : BASF, chemicals (Germany)
+- BAS.DE : BASF, chemicals (Germany)
 
 
 
-\- ASML.AS : ASML, semiconductor equipment (Netherlands)
+- ASML.AS : ASML, semiconductor equipment (Netherlands)
 
-\- INGA.AS : ING, banking (Netherlands)
+- INGA.AS : ING, banking (Netherlands)
 
-\- PHIA.AS : Philips, healthcare tech (Netherlands)
+- PHIA.AS : Philips, healthcare tech (Netherlands)
 
-\- AD.AS : Ahold Delhaize, retail (Netherlands)
+- AD.AS : Ahold Delhaize, retail (Netherlands)
 
 
 
-\- ENI.MI : ENI, oil \& gas (Italy)
+- ENI.MI : ENI, oil \& gas (Italy)
 
-\- ISP.MI : Intesa Sanpaolo, banking (Italy)
+- ISP.MI : Intesa Sanpaolo, banking (Italy)
 
-\- UCG.MI : UniCredit, banking (Italy)
+- UCG.MI : UniCredit, banking (Italy)
 
-\- ENEL.MI : Enel, electricity utility (Italy)
+- ENEL.MI : Enel, electricity utility (Italy)
 
 
 
-\- IBE.MC : Iberdrola, energy (Spain)
+- IBE.MC : Iberdrola, energy (Spain)
 
-\- SAN.MC : Santander, banking (Spain)
+- SAN.MC : Santander, banking (Spain)
 
-\- BBVA.MC : BBVA, banking (Spain)
+- BBVA.MC : BBVA, banking (Spain)
 
-\- ITX.MC : Inditex, retail (Spain)
+- ITX.MC : Inditex, retail (Spain)
 
 
 
-\- NESN.SW : Nestlé, food (Switzerland)
+- NESN.SW : Nestlé, food (Switzerland)
 
-\- NOVN.SW : Novartis, pharmaceuticals (Switzerland)
+- NOVN.SW : Novartis, pharmaceuticals (Switzerland)
 
-\- ROG.SW : Roche, biotech (Switzerland)
+- ROG.SW : Roche, biotech (Switzerland)
 
-\- UBSG.SW : UBS, investment banking (Switzerland)
+- UBSG.SW : UBS, investment banking (Switzerland)
 
 
 
-\---
+---
 
 
 
-\## Notebook Structure
+## Notebook Structure
 
 
 
-\- 01\_data.ipynb → data download and monthly returns
+- 01\_data.ipynb → data download and monthly returns
 
-\- 02\_factor.ipynb → momentum signal construction
+- 02\_factor.ipynb → momentum signal construction
 
-\- 03\_backtest.ipynb → portfolio construction and performance
+- 03\_backtest.ipynb → portfolio construction and performance
 
-\- 04\_risk\_costs.ipynb → drawdown, volatility, transaction costs
+- 04\_risk\_costs.ipynb → drawdown, volatility, transaction costs
 
-\- 05\_robustness\_oos.ipynb → in-sample / out-of-sample testing
+- 05\_robustness\_oos.ipynb → in-sample / out-of-sample testing
 
-\- 99\_summary.ipynb → final synthesis
+- 99\_summary.ipynb → final synthesis
 
 
 
-\---
+---
 
 
 
-\## Tools
+## Tools
 
 
 
