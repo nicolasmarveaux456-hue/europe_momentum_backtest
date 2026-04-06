@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 numpy
 pandas
 matplotlib
 yfinance
+=======
+numpy
+pandas
+matplotlib
+yfinance
+>>>>>>> 541052550edc7f3c0f52736d5edc59bf195c2f0f
 jupyter
